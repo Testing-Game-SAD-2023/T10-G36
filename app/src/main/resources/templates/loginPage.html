@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pagina di accesso</title>
+		<link rel="stylesheet" href="./css/loginPage.css">
+	</head>
+	
+	<body>
+		<div class="wrapper">
+			<!--	Titolo che compare nel riquadro principale della pagina di Login	-->
+			<h1 class="title">ENACTEST 2023</h1>
+
+			<!--	Impostazione di un bottone che chiama la funzione del controller "checklogin"	-->
+			<form action="checklogin" method="post">
+				
+				<!--	Inserimento di un campo di scrittura visibile in cui viene inserita l'email dell'utente		-->
+				<div class="field"> 
+					<input type="text" name="email" required autofocus="autofocus"/>
+					<label class = "control-label" for = "email"> Email </label>
+				</div>
+
+				<!--	Inserimento di un campo di scrittura non visibile in cui viene inserita la password dell'utente		-->
+				<div class="field">
+					<input type="password" name="password" required autofocus="autofocus"/>
+					<label class="control-label" for="password"> Password </label>
+				</div>
+
+				<div class="content">
+					<!--	Inserimento della spunta "Remember Me" [NON FUNZIONANTE]	-->
+					<div class="checkbox">
+				   		<input type="checkbox" id="remember-me">
+				   		<label for="remember-me">Remember me</label>
+					</div>
+
+					<!--	Inserimento di un link alla pagina di Recupero Password		-->
+					<div class="pass-link">
+				   		<a href="#">Forgot password?</a>	<!--	LINK DA INSERIRE	-->
+					</div>
+				</div>
+
+				<!--	Inserimento di un pulsante per avviare il form		-->
+				<div class="field">
+	        		<input type="submit" value="Login"></input>
+	      		</div>
+
+				<!--	Inserimento di un link alla pagina di Registrazione		-->
+				<div class="signup-link">Not a member?
+					<a href="#">Signup now</a>	<!--	LINK DA INSERIRE	-->
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
