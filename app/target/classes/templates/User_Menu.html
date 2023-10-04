@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina di accesso</title>
+    <link rel="stylesheet" href="../css/menuPage.css">
+  </head>
+  
+  <body>
+    <nav>
+      <div class="wrapper">
+        <!-- LOGO USER -->
+        <div class="logo"><a href="/User_Menu">User</a></div>
+  
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <!-- NAVBAR - HOME -->
+          <li><a href="/User_Menu">Home</a></li>
+  
+          <!-- NAVBAR - PLAY -->
+          <li><a href="/User_Play">Gioca</a></li>
+  
+          <!-- NAVBAR - GAME MENU -->
+          <li><a href="#" class="desktop-item">Game Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Game Menu</label>
+            <ul class="drop-menu">
+              <li><a href="/User_ViewClasses">View Classes</a></li>
+              <li><a href="/User_SearchClasses">Search Classes</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Esci</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+  </body>
+  
