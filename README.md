@@ -28,7 +28,7 @@ Per la realizzazione del progetto si è deciso di utilizzare le seguenti tecnolo
 
 ## Guida all'installazione
 1) Installare ed aprire Docker Desktop al seguente link: https://www.docker.com/products/docker-desktop/ .
-2) Scaricare i file.
+2) Scaricare il progetto al seguente link https://www.mediafire.com/file/vro7ppjcp8a2ic1/Progetto.zip/file ed estrarre il file.
 3) Aprire un terminale da amministratore e posizionarsi sul percorso del progetto, successivamente digitare:
    > docker-compose up .
 4) A questo punto l'applicazione è utilizzabile senza ulteriori sforzi, basterà recarsi sul proprio
