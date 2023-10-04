@@ -28,10 +28,10 @@ Per la realizzazione del progetto si è deciso di utilizzare le seguenti tecnolo
 
 ## Guida all'installazione
 1) Installare ed aprire Docker Desktop al seguente link: https://www.docker.com/products/docker-desktop/ .
-2) Installare il file Docker.zip, estrarlo in una qualsiasi directory.
-3) Aprire un terminale da amministratore e posizionarsi sul percorso dove è stato estratto il progetto, successivamente digitare:
+2) Scaricare i file.
+3) Aprire un terminale da amministratore e posizionarsi sul percorso del progetto, successivamente digitare:
    > docker-compose up .
-4) Arrivati a questo punto l'applicazione è utilizzabile senza ulteriori sforzi, basterà recarsi sul proprio
+4) A questo punto l'applicazione è utilizzabile senza ulteriori sforzi, basterà recarsi sul proprio
    browser web e digitare il seguente comando: http://localhost:8080/.
 
 
